@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs # Comodo se vuoi pubblicare dalla cartella /docs o usare GitHub Actions
+
+website:
+  title: "Il Tuo Nome - PhD Researcher"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research & Projects
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: interactive.qmd
+        text: 🎮 Interactive Portfolio (Unity)
+    right:
+      - icon: github
+        href: https://github.com/tuo-username
+      - icon: linkedin
+        href: https://linkedin.com/in/tuo-profilo
+      - text: "ORCID"
+        href: https://orcid.org/0000-0000-0000-0000
+
+format:
+  html:
+    theme: 
+      light: cosmo # Oppure flatly, zephyr, litera
+      dark: darkly # Supporto nativo alla Dark Mode!
+    css: styles.css
+    toc: true
