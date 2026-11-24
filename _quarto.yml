@@ -1,9 +1,14 @@
 project:
   type: website
-  output-dir: docs # Comodo se vuoi pubblicare dalla cartella /docs o usare GitHub Actions
+  output-dir: docs
+  resources:
+    - "unity-build/**"
+    - ".nojekyll"
 
 website:
-  title: "Il Tuo Nome - PhD Researcher"
+  title: "Michele Lamon"
+  site-url: https://michelelamon.github.io
+  description: "PhD Student in Computer Science at University of Milano-Bicocca & Research Technologist at Fondazione Bruno Kessler — VR in mental healthcare, AI, sensors, HCI, and serious games."
   navbar:
     left:
       - href: index.qmd
@@ -14,20 +19,32 @@ website:
         text: Publications
       - href: cv.qmd
         text: CV
-      - href: interactive.qmd
-        text: 🎮 Interactive Portfolio (Unity)
+      # Uncomment the entry below once the Unity WebGL build is placed in unity-build/
+      # - href: interactive.qmd
+      #   text: Interactive Portfolio
     right:
       - icon: github
-        href: https://github.com/tuo-username
+        href: https://github.com/michelelamon
+        aria-label: GitHub
       - icon: linkedin
-        href: https://linkedin.com/in/tuo-profilo
+        href: https://www.linkedin.com/in/michele-lamon/
+        aria-label: LinkedIn
       - text: "ORCID"
-        href: https://orcid.org/0000-0000-0000-0000
+        href: https://orcid.org/0009-0001-5500-6595
+        aria-label: ORCID
+      - icon: envelope
+        href: mailto:mlamon@fbk.eu
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Michele Lamon"
+    right: "Built with [Quarto](https://quarto.org/)"
 
 format:
   html:
-    theme: 
-      light: cosmo # Oppure flatly, zephyr, litera
-      dark: darkly # Supporto nativo alla Dark Mode!
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
+    smooth-scroll: true
+    link-external-newwindow: true

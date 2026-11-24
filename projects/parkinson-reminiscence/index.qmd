@@ -1,0 +1,17 @@
+---
+title: "VR Reminiscence Therapy for Parkinson's MCI"
+subtitle: "Unity VR, Tablet Controller & Depth Image Pipeline"
+date: "2025-06-01"
+categories: [VR/XR, Digital Health, Unity, Computer Vision]
+description: "Unity VR reminiscence therapy application for individuals with Parkinson's-related mild cognitive impairment, paired with a tablet controller and photo depth-visualisation pipeline."
+---
+
+## Overview
+
+Developed at **Fondazione Bruno Kessler (Digital Health Research)** (2024–2025), this system supports **reminiscence therapy** for individuals living with Parkinson's-related mild cognitive impairment (MCI).
+
+## Technical Contribution
+
+- Built the **Unity VR application** to immerse patients in familiar, personalised memory triggers.
+- Developed a **companion tablet application** allowing clinicians or facilitators to guide and control the VR experience during therapy sessions.
+- Implemented an **image depth-visualisation pipeline** to convert patients' personal 2D photographs into immersive depth-enhanced visuals inside the virtual environment.

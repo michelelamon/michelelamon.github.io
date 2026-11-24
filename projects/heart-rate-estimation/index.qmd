@@ -1,0 +1,16 @@
+---
+title: "Towards Shape-Aware Heart Rate Estimation"
+subtitle: "MSc Thesis in Computer Science — University of Trento"
+date: "2026-03-19"
+categories: [Sensors, AI, MSc Thesis]
+description: "Master's thesis exploring shape-aware approaches to physiological heart rate estimation (110/110 cum laude)."
+---
+
+## Overview
+
+Completed as my **Master's Thesis in Computer Science** at the **University of Trento** (defended March 19, 2026; final degree grade: **110/110 *cum laude***).
+
+## Focus
+
+- Investigates **shape-aware methods for heart rate estimation**, bridging signal processing, geometric/morphological representations, and data-driven modelling.
+- Forms part of my broader technical background in integrating **physiological sensors** and **AI-based tools** for health-oriented interactive systems.

@@ -1,0 +1,138 @@
+---
+title: "Curriculum Vitae"
+---
+
+<!-- Uncomment once you place a redacted PDF (without personal address/phone/DOB) in assets/Michele_Lamon_CV.pdf -->
+<!--
+```{=html}
+<p>
+  <a class="btn btn-primary" href="assets/Michele_Lamon_CV.pdf" target="_blank" rel="noopener">
+    Download CV (PDF)
+  </a>
+</p>
+```
+-->
+
+## Education
+
+```{=html}
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">PhD in Computer Science</span>
+    <span class="cv-date">2026 – Present</span>
+  </div>
+  <div class="cv-org">University of Milano-Bicocca · Milan, Italy</div>
+  <p>Doctoral research broadly focused on Virtual Reality in mental healthcare, integrating AI, physiological/behavioural sensors, Human-Computer Interaction (HCI), and serious games.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">Master's Degree in Computer Science (ICT)</span>
+    <span class="cv-date">Aug 2022 – Mar 2026</span>
+  </div>
+  <div class="cv-org">University of Trento · Trento, Italy</div>
+  <p>Final grade: <strong>110/110 cum laude</strong> (120 ECTS). Thesis: <em>Towards shape-aware heart rate estimation</em>.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">Erasmus+ Exchange Programme</span>
+    <span class="cv-date">Jul 2023 – Nov 2023</span>
+  </div>
+  <div class="cv-org">NTNU — Norwegian University of Science and Technology · Trondheim, Norway</div>
+  <p>International exchange semester as part of the Master's degree in Computer Science.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">Bachelor's Degree in Computer Science</span>
+    <span class="cv-date">Jul 2019 – Aug 2022</span>
+  </div>
+  <div class="cv-org">University of Trento · Trento, Italy</div>
+  <p>Final grade: <strong>109/110</strong> (180 ECTS). Thesis: <em>Application VR - xr4a</em>.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">Scientific High School Diploma (Scienze Applicate)</span>
+    <span class="cv-date">2014 – 2019</span>
+  </div>
+  <div class="cv-org">Istituto di Istruzione Superiore Vincenzo Capirola · Ghedi, Italy</div>
+  <p>Final grade: <strong>100/100 cum laude</strong>.</p>
+</div>
+```
+
+## Experience
+
+```{=html}
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">Software Developer / Research Technologist</span>
+    <span class="cv-date">May 2022 – Present</span>
+  </div>
+  <div class="cv-org">Fondazione Bruno Kessler (FBK) — Digital Health Research · Trento, Italy</div>
+  <ul>
+    <li><strong>2026:</strong> Technical solution, prototype development, and maintenance for a VR research project on women's self-objectification.</li>
+    <li><strong>2025:</strong> Scene development for a VR serious game for autistic children and teenagers within the <em>VrHealthChampions</em> project; prototype development for the Dheal-com <em>"Eccipienti Digitali"</em> project.</li>
+    <li><strong>2024–2025:</strong> Unity VR application for reminiscence therapy in individuals with Parkinson's-related mild cognitive impairment, paired with a tablet controller app and a depth-visualisation pipeline for patients' photos.</li>
+    <li><strong>2023–2024:</strong> Meta Quest Unity VR application for older adults with cognitive decline (<em>iEMBRACE</em>), featuring relaxing interactive environments controllable via hand gestures or a caregiver companion smartphone app.</li>
+    <li><strong>2022:</strong> Multiplayer Unity VR application for the <em>xr4a</em> EdTech platform for autistic children and teenagers.</li>
+  </ul>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">Software Developer</span>
+    <span class="cv-date">Dec 2022 – May 2023</span>
+  </div>
+  <div class="cv-org">Meeva · Trento, Italy</div>
+  <p>Development and maintenance of the <em>xr4a</em> VR EdTech application.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">Software Developer Intern</span>
+    <span class="cv-date">Feb 2022 – May 2022</span>
+  </div>
+  <div class="cv-org">Fondazione Bruno Kessler (FBK) · Trento, Italy</div>
+  <p>Mandatory Bachelor's internship developing Unity VR scenes for an EdTech platform for autistic children and teenagers.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">IT Teaching Collaborator</span>
+    <span class="cv-date">Nov 2021 – Oct 2022</span>
+  </div>
+  <div class="cv-org">University of Trento · Trento, Italy</div>
+  <p>Part-time collaboration (24h) for the <em>"Palestra di Algoritmi"</em> project: afternoon high-school teaching on C++ foundations and problem-solving techniques.</p>
+</div>
+
+<div class="cv-item">
+  <div class="cv-header">
+    <span class="cv-role">ICT Help Desk Collaborator</span>
+    <span class="cv-date">Sep 2021 – Feb 2022</span>
+  </div>
+  <div class="cv-org">University of Trento — Dept. of Information Engineering and Computer Science (DISI)</div>
+  <p>Part-time collaboration (150h) supporting the departmental ICT office: help desk, classroom inspections, and computer lab installation and maintenance.</p>
+</div>
+```
+
+## Selected Publications
+
+- Pardini, S., Gios, L., Dianti, M., Genovese, A., **Lamon, M.**, Marcon, J., Forti, S., & Mayora-Ibarra, O. (2025). Exploring customised virtual environments in patients with cognitive decline and responsive behaviours: protocol for a proof-of-concept and feasibility study in a long-term care facility (iEMBRACE). *BMJ Open*, 15(12), e098051. [DOI: 10.1136/bmjopen-2024-098051](https://doi.org/10.1136/bmjopen-2024-098051)
+
+See the full details on the [Publications](publications.qmd) page or on [ORCID](https://orcid.org/0009-0001-5500-6595).
+
+## Skills
+
+- **Programming & Interactive Systems:** Unity, C#, C++, Python, Java, JavaScript, Serious Games, VR/XR Development, Sensor Integration, AI-based Tools
+- **Media:** Photo Editing, Video Editing
+
+## Languages
+
+- **Italian:** Native
+- **English:** Proficient user in Listening & Reading (C1); Independent user in Speaking & Writing (B2)
+
+## Personal Interests
+
+Video games, travel photography, skiing, specialty coffee, piano, daily exercise, and podcasts.

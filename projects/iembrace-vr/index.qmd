@@ -1,0 +1,21 @@
+---
+title: "iEMBRACE — Customised VR for Cognitive Decline"
+subtitle: "Meta Quest VR & Caregiver Companion App"
+date: "2025-12-05"
+categories: [VR/XR, Mental Health, Unity, Meta Quest, Published]
+description: "Personalised, relaxing VR environments controllable via hand gestures or a caregiver smartphone app for older adults with cognitive decline."
+---
+
+## Overview
+
+Developed at **Fondazione Bruno Kessler (Digital Health Research)** (2023–2024) in collaboration with clinicians and psychologists, this project powers the **iEMBRACE** proof-of-concept and feasibility study in a long-term care facility.
+
+## Technical Contribution
+
+- Built a **Unity VR application** targeting the **Meta Quest** headset family for older adults experiencing cognitive decline and responsive behaviours.
+- Designed relaxing, interactive virtual environments supporting **hand-gesture interaction** so residents can engage naturally without complex controllers.
+- Developed a **companion smartphone application** enabling healthcare workers to supervise, customise, and control the VR session in real time.
+
+## Related Publication
+
+- Pardini, S., Gios, L., Dianti, M., Genovese, A., **Lamon, M.**, Marcon, J., Forti, S., & Mayora-Ibarra, O. (2025). *Exploring customised virtual environments in patients with cognitive decline and responsive behaviours: protocol for a proof-of-concept and feasibility study in a long-term care facility (iEMBRACE)*. **BMJ Open**, 15(12), e098051. DOI: [10.1136/bmjopen-2024-098051](https://doi.org/10.1136/bmjopen-2024-098051)

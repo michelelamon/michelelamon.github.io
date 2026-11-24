@@ -1,0 +1,45 @@
+---
+title: "Publications"
+---
+
+My publication record is also indexed on [ORCID (`0009-0001-5500-6595`)](https://orcid.org/0009-0001-5500-6595).
+
+<!-- Note: references.bib is maintained in the repository so Quarto's automatic {#refs} rendering can be enabled as the publication list grows. -->
+
+## Peer-Reviewed Journal Articles
+
+```{=html}
+<div class="pub-card">
+  <div class="pub-title">Exploring customised virtual environments in patients with cognitive decline and responsive behaviours: protocol for a proof-of-concept and feasibility study in a long-term care facility (iEMBRACE)</div>
+  <div class="pub-authors">Susanna Pardini, Lorenzo Gios, Marco Dianti, Anna Genovese, <strong>Michele Lamon</strong>, Jacqueline Marcon, Stefano Forti, Oscar Mayora-Ibarra</div>
+  <div class="pub-venue">BMJ Open, 2025; 15(12):e098051</div>
+  <div class="pub-summary">
+    Protocol for a longitudinal mixed-methods proof-of-concept and feasibility trial evaluating personalised, relaxing VR environments for long-term care residents with cognitive decline and responsive behaviours. I contributed the technical design and development of the Meta Quest Unity VR application and caregiver companion smartphone controller.
+  </div>
+  <div class="pub-links">
+    <a class="btn btn-sm btn-outline-primary" href="https://doi.org/10.1136/bmjopen-2024-098051" target="_blank" rel="noopener">DOI: 10.1136/bmjopen-2024-098051</a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://pubmed.ncbi.nlm.nih.gov/41360455/" target="_blank" rel="noopener">PubMed: 41360455</a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12684151/" target="_blank" rel="noopener">Open Access (PMC12684151)</a>
+  </div>
+  <details>
+    <summary>BibTeX</summary>
+<pre class="pub-bibtex"><code>@article{pardini2025iembrace,
+  author  = {Pardini, Susanna and Gios, Lorenzo and Dianti, Marco and Genovese, Anna and Lamon, Michele and Marcon, Jacqueline and Forti, Stefano and Mayora-Ibarra, Oscar},
+  title   = {Exploring customised virtual environments in patients with cognitive decline and responsive behaviours: protocol for a proof-of-concept and feasibility study in a long-term care facility ({iEMBRACE})},
+  journal = {BMJ Open},
+  year    = {2025},
+  volume  = {15},
+  number  = {12},
+  pages   = {e098051},
+  doi     = {10.1136/bmjopen-2024-098051},
+  pmid    = {41360455},
+  pmcid   = {PMC12684151}
+}</code></pre>
+  </details>
+</div>
+```
+
+## Theses
+
+- **Towards shape-aware heart rate estimation** (2026) — MSc Thesis in Computer Science, University of Trento (Final grade: *110/110 cum laude*).
+- **Application VR - xr4a** (2022) — BSc Thesis in Computer Science, University of Trento (Final grade: *109/110*).

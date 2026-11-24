@@ -1,0 +1,22 @@
+---
+title: "Research & Projects"
+listing:
+  id: projects-listing
+  contents: projects
+  type: grid
+  sort: "date desc"
+  categories: true
+  fields: [title, subtitle, date, categories, description]
+---
+
+::: {.callout-note appearance="simple"}
+## PhD Research Direction — University of Milano-Bicocca
+My doctoral work in Computer Science investigates **Virtual Reality in mental healthcare**, bringing together **AI**, **physiological and behavioural sensors**, **Human-Computer Interaction (HCI)**, and **serious games**. As I am in the early stage of my PhD, I am currently refining my specific research question by building on applied clinical VR engineering experience at Fondazione Bruno Kessler.
+:::
+
+## Applied Research & Engineering Projects
+
+Below is a selection of research software, clinical VR applications, and academic projects I have built or contributed to. Use the category filters to browse by topic.
+
+::: {#projects-listing}
+:::

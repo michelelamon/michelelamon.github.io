@@ -1,7 +1,51 @@
 ---
-title: "michelelamon"
+title: "Michele Lamon"
+toc: false
 ---
 
-This is a Quarto website.
+```{=html}
+<div class="profile-hero">
+  <img src="images/profile.jpg" alt="Portrait of Michele Lamon" class="profile-photo">
+  <p class="profile-role">
+    PhD Student in Computer Science · University of Milano-Bicocca<br>
+    Research Technologist · Fondazione Bruno Kessler
+  </p>
+  <div class="profile-links">
+    <a class="btn btn-sm btn-outline-primary" href="https://orcid.org/0009-0001-5500-6595" target="_blank" rel="noopener">ORCID</a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://www.linkedin.com/in/michele-lamon/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://github.com/lamon22" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+    <a class="btn btn-sm btn-outline-secondary" href="mailto:mlamon@fbk.eu"><i class="bi bi-envelope"></i> Email</a>
+  </div>
+  <p>
+    I am a <strong>PhD Student in Computer Science</strong> at the <strong>University of Milano-Bicocca</strong>, where my doctoral research explores <strong>Virtual Reality in mental healthcare</strong> at the intersection of <strong>artificial intelligence</strong>, <strong>physiological and environmental sensors</strong>, <strong>Human-Computer Interaction (HCI)</strong>, and <strong>serious games</strong>.
+  </p>
+  <p>
+    Alongside my PhD, I have over four years of experience as a <strong>Software Developer and Research Technologist</strong> in the <strong>Digital Health Research</strong> unit at <strong>Fondazione Bruno Kessler (FBK)</strong> in Trento, Italy. Working closely with clinicians and psychologists, I design and build interactive VR/XR applications, sensor-driven pipelines, and AI-assisted tools for applied healthcare research.
+  </p>
+</div>
+```
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Research Interests
+
+```{=html}
+<div class="research-tags">
+  <span class="research-tag">Virtual Reality &amp; XR</span>
+  <span class="research-tag">Mental Healthcare</span>
+  <span class="research-tag">Digital Health</span>
+  <span class="research-tag">Human-Computer Interaction</span>
+  <span class="research-tag">Serious Games</span>
+  <span class="research-tag">AI &amp; Sensor Integration</span>
+</div>
+```
+
+## Recent News
+
+- **2026** — Enrolled in the **PhD programme in Computer Science** at the **University of Milano-Bicocca**, focusing on VR, AI, sensors, HCI, and serious games for mental healthcare.
+- **March 2026** — Graduated with a **Master's degree in Computer Science** (*110/110 cum laude*) from the **University of Trento**, defending the thesis *"Towards shape-aware heart rate estimation"*.
+- **December 2025** — Co-authored the study protocol for **iEMBRACE** in *BMJ Open* ([10.1136/bmjopen-2024-098051](https://doi.org/10.1136/bmjopen-2024-098051)), investigating customised VR environments for patients with cognitive decline.
+
+## Explore
+
+- **[Research & Projects](research.qmd)** — Overview of my PhD research direction and applied VR/digital health projects.
+- **[Publications](publications.qmd)** — Peer-reviewed articles and academic theses.
+- **[CV](cv.qmd)** — Full academic background, research engineering experience, and skills.

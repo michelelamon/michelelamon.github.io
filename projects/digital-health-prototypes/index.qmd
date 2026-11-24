@@ -1,0 +1,16 @@
+---
+title: "Applied VR & Digital Health Prototypes"
+subtitle: "Dheal-com Eccipienti Digitali & Self-Objectification VR"
+date: "2026-06-01"
+categories: [VR/XR, Digital Health, Prototyping]
+description: "Rapid VR prototyping and technical solutions at FBK for psychology and digital health studies, including Dheal-com 'Eccipienti Digitali' and a study on women's self-objectification."
+---
+
+## Overview
+
+Ongoing prototyping and research-software engineering within the **Digital Health Research** unit at **Fondazione Bruno Kessler (FBK)**, supporting multidisciplinary studies alongside psychologists and healthcare researchers.
+
+## Highlights
+
+- **VR Study on Women's Self-Objectification (2026):** Designed the technical solution, rapid prototype development, and ongoing maintenance for an experimental VR research study.
+- **Dheal-com — *"Eccipienti Digitali"* (2025):** Contributed prototype development within the Dheal-com initiative exploring digital health interventions.

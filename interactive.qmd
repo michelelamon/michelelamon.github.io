@@ -1,0 +1,97 @@
+---
+title: "Interactive Portfolio"
+toc: false
+---
+
+<!--
+HOW TO ENABLE THIS UNITY WEBGL PORTFOLIO PAGE WHEN READY:
+1. Export your project from Unity using the WebGL target:
+   - In Unity: Project Settings -> Player -> WebGL -> Publishing Settings:
+     enable "Decompression Fallback" (or set "Compression Format" to "Disabled"),
+     because GitHub Pages does not serve custom Content-Encoding headers for .br/.gz files.
+   - Note: GitHub has a 100 MB per-file limit. If your build exceeds that, host it on itch.io
+     (even as unlisted) and point the iframe `src` below to the itch.io embed URL.
+2. Copy the exported WebGL build files (index.html, Build/, TemplateData/) into `unity-build/`.
+3. Below, remove/comment out the "Placeholder" block and uncomment the "Click-to-Play Unity WebGL" block
+   (keep the ```{=html} raw block wrapper so Pandoc does not treat indented HTML as code).
+4. In `_quarto.yml`, uncomment the `interactive.qmd` entry under `website.navbar.left`.
+5. Run `quarto render` to rebuild `docs/`.
+-->
+
+<!-- === PLACEHOLDER (Active while Unity build is in development) === -->
+```{=html}
+<div class="unity-stage">
+  <div class="unity-placeholder">
+    <h3>Interactive Unity Showcase — Coming Soon</h3>
+    <p>
+      I am currently building an interactive <strong>Unity WebGL</strong> experience to showcase my work in Virtual Reality, serious games, and digital health.
+    </p>
+    <p class="mb-3">
+      Check back soon, or explore my <a href="research.html">Research &amp; Projects</a> in the meantime.
+    </p>
+    <a class="btn btn-outline-primary btn-sm" href="research.html">Browse Research &amp; Projects</a>
+  </div>
+</div>
+```
+
+<!-- === CLICK-TO-PLAY UNITY WEBGL (Uncomment when unity-build/index.html is ready) ===
+```{=html}
+<p>
+  Explore an interactive 3D presentation of my research and VR projects built in <strong>Unity</strong>.
+  Click <strong>Launch Experience</strong> below to load the WebGL build on demand.
+</p>
+
+<div id="unity-stage" class="unity-stage">
+  <div id="unity-launch-overlay" class="unity-placeholder">
+    <h4>Interactive 3D Portfolio</h4>
+    <p>
+      Loads the Unity WebGL application in your browser (recommended on desktop).
+    </p>
+    <button id="unity-launch-btn" type="button" class="btn btn-primary">
+      Launch Experience
+    </button>
+  </div>
+</div>
+
+<div class="unity-controls">
+  <small>
+    <strong>Controls:</strong> Click inside the viewport to interact · Mouse to look/select · WASD / Arrow keys to move (if applicable) · <code>Esc</code> to release cursor.
+  </small>
+  <button id="unity-fullscreen-btn" type="button" class="btn btn-sm btn-outline-secondary" disabled>
+    Fullscreen
+  </button>
+</div>
+
+<div class="alert alert-secondary mt-3" role="note">
+  <strong>Mobile visitors:</strong> Unity WebGL experiences are best viewed on a desktop browser with WebGL enabled.
+</div>
+
+<script>
+(function () {
+  const stage = document.getElementById("unity-stage");
+  const overlay = document.getElementById("unity-launch-overlay");
+  const launchBtn = document.getElementById("unity-launch-btn");
+  const fsBtn = document.getElementById("unity-fullscreen-btn");
+  if (!stage || !launchBtn || !fsBtn) return;
+
+  launchBtn.addEventListener("click", function () {
+    const iframe = document.createElement("iframe");
+    iframe.src = "unity-build/index.html";
+    iframe.title = "Michele Lamon — Interactive Unity Portfolio";
+    iframe.allow = "fullscreen; autoplay";
+    iframe.loading = "eager";
+
+    overlay.remove();
+    stage.appendChild(iframe);
+    fsBtn.disabled = false;
+  });
+
+  fsBtn.addEventListener("click", function () {
+    if (stage.requestFullscreen) {
+      stage.requestFullscreen();
+    }
+  });
+})();
+</script>
+```
+-->

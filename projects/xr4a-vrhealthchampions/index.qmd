@@ -1,0 +1,16 @@
+---
+title: "xr4a & VrHealthChampions"
+subtitle: "Multiplayer & Serious-Game VR for Autistic Youth"
+date: "2025-04-01"
+categories: [VR/XR, Serious Games, EdTech, Unity]
+description: "Multiplayer Unity VR EdTech platform (xr4a) and serious-game VR scene development (VrHealthChampions) for autistic children and teenagers."
+---
+
+## Overview
+
+A multi-year line of work spanning **Fondazione Bruno Kessler**, **Meeva**, and my **BSc Thesis at the University of Trento**, creating accessible Virtual Reality experiences and serious games tailored to autistic children and teenagers.
+
+## Technical Contribution
+
+- **VrHealthChampions (FBK, 2025):** Designed and developed a new interactive scene for a VR serious game aimed at autistic children and teenagers.
+- **xr4a Platform (FBK & Meeva, 2022–2023):** Developed and maintained a **multiplayer Unity VR application** as part of an EdTech platform for autistic youth, starting with my mandatory BSc internship (Feb–May 2022) and BSc thesis (*Application VR - xr4a*, Aug 2022), and continuing in production development at FBK and Meeva.
