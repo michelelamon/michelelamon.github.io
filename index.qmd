@@ -13,7 +13,7 @@ toc: false
   <div class="profile-links">
     <a class="btn btn-sm btn-outline-primary" href="https://orcid.org/0009-0001-5500-6595" target="_blank" rel="noopener">ORCID</a>
     <a class="btn btn-sm btn-outline-secondary" href="https://www.linkedin.com/in/michele-lamon/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
-    <a class="btn btn-sm btn-outline-secondary" href="https://github.com/lamon22" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+    <a class="btn btn-sm btn-outline-secondary" href="https://github.com/michelelamon" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
     <a class="btn btn-sm btn-outline-secondary" href="mailto:mlamon@fbk.eu"><i class="bi bi-envelope"></i> Email</a>
   </div>
   <p>
