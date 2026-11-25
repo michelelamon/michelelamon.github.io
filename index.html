@@ -345,7 +345,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="profile-hero">
-  <img src="images/profile.jpg" alt="Portrait of Michele Lamon" class="profile-photo">
+  <div class="profile-card-wrap">
+    <div class="profile-card" data-depth="images/profile-depth.jpg">
+      <img src="images/profile.jpg" alt="Portrait of Michele Lamon" class="profile-card-img">
+      <canvas class="profile-card-canvas" aria-hidden="true"></canvas>
+      <div class="profile-card-glare" aria-hidden="true"></div>
+      <button type="button" class="profile-gyro-btn" hidden="" aria-label="Enable 3D gyroscope tilt">3D Tilt</button>
+    </div>
+  </div>
   <p class="profile-role">
     PhD Student in Computer Science · University of Milano-Bicocca<br>
     Research Technologist · Fondazione Bruno Kessler
@@ -363,6 +370,7 @@ ul.task-list li input[type="checkbox"] {
     Alongside my PhD, I have over four years of experience as a <strong>Software Developer and Research Technologist</strong> in the <strong>Digital Health Research</strong> unit at <strong>Fondazione Bruno Kessler (FBK)</strong> in Trento, Italy. Working closely with clinicians and psychologists, I design and build interactive VR/XR applications, sensor-driven pipelines, and AI-assisted tools for applied healthcare research.
   </p>
 </div>
+<script src="js/profile-3d.js" defer=""></script>
 <section id="research-interests" class="level2">
 <h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
 <div class="research-tags">
