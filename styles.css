@@ -246,6 +246,12 @@ body.quarto-dark {
   cursor: pointer;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .profile-gyro-btn {
+    display: none !important;
+  }
+}
+
 .profile-role {
   font-size: 1.05rem;
   color: var(--site-muted);

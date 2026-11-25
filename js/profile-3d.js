@@ -317,7 +317,10 @@
       }
     }
 
-    if (typeof window.DeviceOrientationEvent !== "undefined") {
+    var isTouchDevice = ("ontouchstart" in window || navigator.maxTouchPoints > 0);
+    var isFinePointerOnly = window.matchMedia && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+
+    if (isTouchDevice && !isFinePointerOnly && typeof window.DeviceOrientationEvent !== "undefined") {
       if (typeof window.DeviceOrientationEvent.requestPermission === "function") {
         // iOS 13+ requires user gesture
         if (gyroBtn) {
@@ -343,7 +346,7 @@
             if (!gyroActive) requestGyro();
           }, { once: true });
         }
-      } else if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {
+      } else {
         // Android and browsers that allow DeviceOrientation without explicit prompt
         attachGyro();
       }
