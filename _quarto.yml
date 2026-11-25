@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - "unity-build/**"
+    - "images/**"
+    - "js/**"
     - ".nojekyll"
 
 website:
